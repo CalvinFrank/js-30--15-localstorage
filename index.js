@@ -13,7 +13,7 @@ function addItem(e) {
     items.push(item)
     JSON.stringify(item)
     console.log(item)
-    localStorage.setItem("item",item)
+    localStorage.setItem("items",item)
 
     populateList(items,itemsList)
 
