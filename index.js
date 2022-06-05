@@ -11,7 +11,10 @@ function addItem(e) {
         
     }
     items.push(item)
-    console.log(items);
+    JSON.stringify(item)
+    console.log(item)
+    localStorage.setItem("item",item)
+
     populateList(items,itemsList)
 
     this.reset()
