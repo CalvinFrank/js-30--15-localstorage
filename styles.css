@@ -7,7 +7,7 @@
 
 html {
     box-sizing: border-box;
-    background: url("oh-la-la.jpeg")center no-repeat;
+    /* background: url("oh-la-la.jpeg")center no-repeat; */
     background-size: cover;
     min-height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@ html {
 }
 
 svg {
-    fill: white;
+    fill: blue;
     background: rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 50%;
